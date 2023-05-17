@@ -27,6 +27,7 @@ window.onload = function(){
     console.log("Window loaded")
     // wire up the button
     button.onclick = onButtonClick;
+    console.log("Hello");
 
     // wire up the radio boxes
 
