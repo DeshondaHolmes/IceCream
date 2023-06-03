@@ -32,7 +32,7 @@ window.onload = function(){
     // wire up the radio boxes
 
     cupChoice.onchange = toggleToppingDisplay;
-    coneChoice.onchange = toggleToppingDisplay;
+
 }
 
 
@@ -81,18 +81,18 @@ function toggleToppingDisplay(){
     //figure out if the toppings should or should not be displayed.
     console.log ("toggletoppingdisplay");
     let cupChoice = document.getElementById("cupChoice");
-    let toppingsRow = document.getElementById("toppingRow")
+    let toppingsRow = document.getElementById("toppingsRow")
     //figure out if the toppings should or should not be displayed.
     if (cupChoice.onchange){
-    toppingsRow = "none";
+        toppingsRow.style.display = "none";
     }
     else{
-    toppingsRow = "block";
+        toppingsRow.style.display = "block";
     }
     //identify if Cup is selected, and show the toppings if it is.
 
     //identify if Cone is selected, and hide the toppings if it is.
 
 }
-toggleToppingDisplay()
-toggleToppingDisplay()
+
+toggleToppingDisplay();
