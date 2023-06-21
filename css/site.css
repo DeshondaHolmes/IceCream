@@ -1,3 +1,16 @@
-body{
+body {
     background-color: bisque;
+}
+
+
+form {
+    background:linear-gradient(rgba(255, 0, 0, 0.155),pink,rgba(0, 128, 0, 0.217));
+    color: rgb(30, 1, 56);
+    font-size: larger;
+
+
+}
+
+#toppingsSelect{
+    border-style: double;
 }
